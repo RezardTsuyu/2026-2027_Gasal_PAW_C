@@ -1,0 +1,81 @@
+.container {
+    flex: 1;
+}
+.form1{
+	flex-direction: column;
+}
+.form2{
+	flex-direction: column;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 80%;
+}
+
+thead {
+    background-color: darkcyan;
+    color: white;
+}
+
+thead th {
+    padding: 12px;
+    border-top: 2px solid darkcyan;
+}
+thead th:first-child {
+    border-top-left-radius: 10px;
+}
+thead th:last-child {
+    border-top-right-radius: 10px;
+}
+td{
+    border: 1px solid darkcyan;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: blue;
+    color: whitesmoke;
+    padding: 8px 16px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+a:hover{
+	background-color: darkblue;
+}
+button {
+    display: inline-block;
+    text-decoration: none;
+    background-color: blue;
+    color: whitesmoke;
+    padding: 8px 16px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+button:hover{
+    background-color: darkblue;
+}
+
+/* menu navigasi Transaksi | Data Barang */
+.nav {
+    margin-bottom: 12px;
+}
+
+/* kotak notifikasi (sukses, gagal, atau "barang masih dipakai") */
+.notif {
+    background-color: lightyellow;
+    border: 2px solid darkcyan;
+    border-radius: 4px;
+    padding: 10px 16px;
+    width: 80%;
+}
+
+/* baris total di bawah tabel detail */
+.total-row td {
+    background-color: #e6f7f7;
+}
+
+/* barang yang sudah ada di detail transaksi: tampil pudar dan tidak bisa dipilih */
+option:disabled {
+    color: #999;
+}
